@@ -1,11 +1,19 @@
-.styles {
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
     margin: 20px;
     border: solid;
     width: 25%;
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri';
 }
-.list {
-    display: flex;
-    flex-wrap: wrap;
+.card-title{
+    /* display: flex; */
+    justify-content: space-between;
+}
+.git {
+    width: 10%;
+    margin-right: 10px;
 }

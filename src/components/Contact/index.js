@@ -56,6 +56,7 @@ function Contact() {
     <div>
       <h3>Contact</h3>
       <form className="form">
+        <label>Name:</label>
       <input
           value={name}
           name="name"
@@ -63,6 +64,7 @@ function Contact() {
           type="text"
           placeholder="Your Name"
         />
+        <label>Email address:</label>
         <input
           value={email}
           name="email"
@@ -70,6 +72,7 @@ function Contact() {
           type="email"
           placeholder="sample@email.com"
         />
+        <label>Message:</label>
         <input
           value={message}
           name="message"

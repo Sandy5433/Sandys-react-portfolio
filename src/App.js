@@ -12,7 +12,7 @@ import Portfolio from "./components/Portfolio";
 
 function App() {
   // var currentPage = "Resume";
-  const [currentPage, setCurrentPage] = useState("Resume")
+  const [currentPage, setCurrentPage] = useState("About")
 
   function renderPage () {
     if(currentPage == "About") {
@@ -32,7 +32,7 @@ function App() {
       <Container>
         {renderPage()}
       </Container>
-      {/* <Footer /> */}
+      <Footer/>
     </div>
   );
 }

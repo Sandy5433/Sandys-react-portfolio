@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.footer {
+  padding: 50px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+  font-size: large;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+  height: 5%;
+}
