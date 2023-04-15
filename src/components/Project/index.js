@@ -1,19 +1,19 @@
 import React from 'react';
 import Card from "react-bootstrap/Card";
+import "./style.css";
 
 
-function Project ({title, description, image}) {
+function Project(props){
     return (
-        <Card>
-            <Card.Header>{title}</Card.Header>
-        <Card.Img variant="top" src={image} />
-        <Card.Body>
-          <Card.Text>
-           {description}
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    )
+        <ul className="list">
+         {props.projects.map(item => (
+             <Card className="styles">
+             <Card.Header>{item.title}</Card.Header>
+             <Card.Img variant="top" src={item.image}/>
+             </Card>
+          ))}
+        </ul>
+      );
 }
 
 export default Project;

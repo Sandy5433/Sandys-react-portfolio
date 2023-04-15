@@ -12,7 +12,7 @@ import Portfolio from "./components/Portfolio";
 
 function App() {
   // var currentPage = "Resume";
-  const [currentPage, setCurrentPage] = useState("Portfolio")
+  const [currentPage, setCurrentPage] = useState("Resume")
 
   function renderPage () {
     if(currentPage == "About") {
