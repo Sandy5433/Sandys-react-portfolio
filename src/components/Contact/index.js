@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { checkMessage, validateEmail } from '../utils/helpers';
+import { checkMessage, validateEmail, checkName } from '../utils/helpers';
 
 function Contact() {
   // Create state variables for the fields in the form
