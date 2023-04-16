@@ -15,7 +15,7 @@
   ## Usage
   On the homepage, you will be directed to the About Me section where you can find a brief biography about myself. The navigation bar contains options for Portfolio, Contact, and Resume. 
   Clicking on the option will render the corresponding section without reloading the page. You can see a list of my projects I've worked on under the Portfolio section. Clicking on the image of the portfolio will take you to the deployed website. If you'd like to view the code, the Git Hub icon will take you to the corresponding Git Hub repository. You can contact me via the contact section - please enter all fields to send me a message. The resume section contains a brief overview of my proficiencies, and you can also download a copy of my resume via the embedded link.
- Check out the deployed application via the link:
+ Check out the deployed application via the link: https://sandy5433.github.io/Sandys-react-portfolio/
   ## Technology
   React is used in this application to create the interactive UIs. Bootstrap has been used for the Portfolio and Header components of the webpage  
   ## Roadmap
