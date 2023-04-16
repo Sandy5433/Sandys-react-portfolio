@@ -4,18 +4,3 @@ export function validateEmail(email) {
   return re.test(String(email).toLowerCase());
 }
 
-export function checkMessage(input) {
-  const message = /^[A-Za-z]\w{7,14}$/;
-  if (input.match(message)) {
-    return true;
-  }
-  return false;
-}
-
-export function checkName(input) {
-  const name = /^[A-Za-z]\w{1,30}$/;
-  if (input.match(name)) {
-    return true;
-  }
-  return false;
-}

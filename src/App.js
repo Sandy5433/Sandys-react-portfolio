@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
 import "./App.css";
@@ -11,7 +10,7 @@ import { useState } from "react";
 import Portfolio from "./components/Portfolio";
 
 function App() {
-  // var currentPage = "Resume";
+
   const [currentPage, setCurrentPage] = useState("About")
 
   function renderPage () {

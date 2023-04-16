@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { checkMessage, validateEmail, checkName } from '../utils/helpers';
+import { validateEmail } from '../utils/helpers';
 
 function Contact() {
   // Create state variables for the fields in the form
@@ -12,7 +12,7 @@ function Contact() {
   const handleInputChange = (e) => {
     // Getting the value and field of the input which triggered the change
     const { target } = e;
-    const inputType = target.field;
+    const inputType = target.name;
     const inputValue = target.value;
 
     // Based on the input type, we set the state of either email, name, and message
@@ -29,34 +29,38 @@ function Contact() {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
-    // First we check to see if the email is not valid or if the name is empty. If so we set an error message to be displayed on the page.
-    if (!checkName(name)) {
-        setErrorMessage('Name is required');
+    //check if the name is empty. If so we set an error message to be displayed on the page.
+    if (!name) {
+        setErrorMessage('*Name is required');
         return;
       }
     if (!validateEmail(email)) {
-      setErrorMessage('Email address is invalid');
+      setErrorMessage('*Email address is invalid');
       //exit out of this code block if something is wrong so that the user can correct it
       return;
-      // Then check to see if the message is not valid. If so, we set an error message regarding the password.
+      // Then check to see if the message is empty. If so, we set an error message regarding the message.
     }
-    if (!checkMessage(message)) {
-      setErrorMessage('Message is required');
+    if (!message) {
+      setErrorMessage('*Message is required');
       return;
     }
-    alert(`Hello ${name}`);
+    ;
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setName('');
     setMessage('');
     setEmail('');
+    setErrorMessage('');
   };
 
   return (
     <div>
-      <h3>Contact</h3>
+      <h3 className='page-title'>Contact</h3>
       <form className="form">
-        <label>Name:</label>
+      <div className="field">
+      <label>Name:</label>
+      </div>
+      <div className="input">
       <input
           value={name}
           name="name"
@@ -64,7 +68,11 @@ function Contact() {
           type="text"
           placeholder="Your Name"
         />
+        </div>
+        <div className="field">
         <label>Email address:</label>
+        </div>
+        <div className="input">
         <input
           value={email}
           name="email"
@@ -72,7 +80,11 @@ function Contact() {
           type="email"
           placeholder="sample@email.com"
         />
+        </div>
+        <div className="field">
         <label>Message:</label>
+        </div>
+        <div className="input">
         <input
           value={message}
           name="message"
@@ -80,6 +92,7 @@ function Contact() {
           type="text"
           placeholder="Type a message"
         />
+        </div>
         <button type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (

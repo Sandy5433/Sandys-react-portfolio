@@ -4,8 +4,8 @@ import photo from "../../images/git.png"
 function About() {
   return (
     <div>
-      <h3>About Me</h3>
-      <img src={photo} />
+      <h3 className='page-title'>About Me</h3>
+      <img className='sandy' src={photo} />
       <p>Hi! My name is Sandy</p>
     </div>
   );

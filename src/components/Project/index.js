@@ -5,7 +5,10 @@ import ghIcon from "../../images/git.png"
 
 function Project(props){
     return (
+        <div>
+        <h3 className='page-title'>Portfolio</h3>
         <ul className="cards">
+          
          {props.projects.map(item => (
              <Card className="card">
              <Card.Header><a href={item.github}>
@@ -18,6 +21,7 @@ function Project(props){
              </Card>
           ))}
         </ul>
+        </div>
       );
 }
 export default Project;
