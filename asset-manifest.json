@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Sandys-react-portfolio/static/css/main.ad7b0c8e.css",
+    "main.js": "/Sandys-react-portfolio/static/js/main.6a517ed2.js",
+    "static/js/787.123e5d76.chunk.js": "/Sandys-react-portfolio/static/js/787.123e5d76.chunk.js",
+    "static/media/img3.jpg": "/Sandys-react-portfolio/static/media/img3.b974fd9992cde6c64153.jpg",
+    "static/media/img2.jpg": "/Sandys-react-portfolio/static/media/img2.e59291583a1c8cec7ba3.jpg",
+    "static/media/img6.png": "/Sandys-react-portfolio/static/media/img6.1d6fda203ad984b4557f.png",
+    "static/media/img4.png": "/Sandys-react-portfolio/static/media/img4.f1a9d521e800ecb1e6df.png",
+    "static/media/img5.jpg": "/Sandys-react-portfolio/static/media/img5.e7b1d8dc7b5b5d5f0582.jpg",
+    "index.html": "/Sandys-react-portfolio/index.html",
+    "main.ad7b0c8e.css.map": "/Sandys-react-portfolio/static/css/main.ad7b0c8e.css.map",
+    "main.6a517ed2.js.map": "/Sandys-react-portfolio/static/js/main.6a517ed2.js.map",
+    "787.123e5d76.chunk.js.map": "/Sandys-react-portfolio/static/js/787.123e5d76.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad7b0c8e.css",
+    "static/js/main.6a517ed2.js"
+  ]
+}
