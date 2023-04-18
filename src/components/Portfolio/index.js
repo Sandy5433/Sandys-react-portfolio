@@ -31,10 +31,10 @@ const projects = [
     },
     {
       id: 4,
-      title: "Tech blog",
+      title: "Text Editor",
       image: img4,
-      address: "https://boiling-savannah-84115.herokuapp.com/",
-      github: "https://github.com/Sandy5433/Tech-blog.git"
+      address: "https://text-editor-pwa-08042023.herokuapp.com/",
+      github: "https://github.com/Sandy5433/Text-editor"
     },
     {
       id: 5,

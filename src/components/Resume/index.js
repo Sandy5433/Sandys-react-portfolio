@@ -4,7 +4,7 @@ function Resume() {
   return (
     <div>
       <h3 className='page-title'>Resume</h3>
-      <p>Download my <a href="#">resume</a></p>
+      <p>Download my <a href="https://github.com/Sandy5433">resume</a></p>
       <p>Front-end Proficiencies
         <ul>
             <li>HTML</li>
