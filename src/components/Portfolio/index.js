@@ -12,7 +12,7 @@ const projects = [
       id: 1,
       title: "React Portfolio",
       image: img1,
-      address: "https://github.com/Sandy5433/Sandys-react-portfolio.git",
+      address: "https://sandy5433.github.io/Sandys-react-portfolio/",
       github: "https://github.com/Sandy5433/Sandys-react-portfolio.git"
     },
     {
