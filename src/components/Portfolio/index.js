@@ -38,10 +38,10 @@ const projects = [
     },
     {
       id: 5,
-      title: "Note Taker",
+      title: "Employee review Portal",
       image: img5,
-      address: "https://note-list-app.herokuapp.com/",
-      github: "https://github.com/Sandy5433/note-taker.git"
+      address: "https://boiling-savannah-84115.herokuapp.com/",
+      github: "https://github.com/Sandy5433/Performance-review-portal.git"
     },
     {
       id: 6,
